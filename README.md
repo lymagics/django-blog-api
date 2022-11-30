@@ -26,7 +26,7 @@ Lightweight blogging API written in Python and Django.
 ```
     docker-compose -f docker-compose-prod.yml up -d
 ```
-3. Apply database mugrations:
+3. Apply database migrations:
 ```
     docker-compose exec web python manage.py migrate
 ```
